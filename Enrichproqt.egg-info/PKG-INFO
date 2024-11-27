@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: Enrichproqt
+Version: 0.1.0
+Summary: Pathway Enrichment Analysis for Protein Lists
+Home-page: https://github.com/qinti2023/Enrichproqt
+Author: qinti
+Author-email: qinti@zju.edu.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Enrichproqt 
+
+Enrichproqt is a Python package for pathway enrichment analysis.
+
+**Designed by** `qinti`
+
+## Installation 
+
+You can install it using pip:
+
+```shell
+pip install Enrichproqt
+```
+
+## Example Usage
+
+```python
+from Enrichproqt import PathwayEnrichment
+
+protein_list = ["P12345", "Q67890"]
+enrichment_results = PathwayEnrichment.analyze("ALL", protein_list)
+print(enrichment_results)
+```
+

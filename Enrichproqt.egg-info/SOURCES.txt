@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+Enrichproqt/Enrichproqt.py
+Enrichproqt/__init__.py
+Enrichproqt.egg-info/PKG-INFO
+Enrichproqt.egg-info/SOURCES.txt
+Enrichproqt.egg-info/dependency_links.txt
+Enrichproqt.egg-info/requires.txt
+Enrichproqt.egg-info/top_level.txt
+Enrichproqt/data/BP_pathway_dict.pkl
+Enrichproqt/data/CC_pathway_dict.pkl
+Enrichproqt/data/MF_pathway_dict.pkl
